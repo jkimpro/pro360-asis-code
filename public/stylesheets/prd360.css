@@ -1,0 +1,130 @@
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+.scrollspy-list{
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.heading1 {
+  border-bottom: 1px solid #aaa;
+}
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}  
+.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #000000 #000000 #fff  !important;
+}
+.sort_active {
+  color: #495057;
+  background-color: #fff;
+  border-color: #000000 #000000 #fff  !important;
+  font-weight: bold; 
+  font-size: 13px;
+  text-decoration: underline;
+}
+.selectedItem {
+  text-decoration: underline;
+  font-weight: bold; 
+  font-size: 13px;
+}
+.nav-tabs, .nav-link{
+  color:  #495057;
+  border-color: #ced4da;
+
+}
+
+.nav-link:hover {
+    border-color: #000000 #000000 #000000 !important;
+}
+
+#searchForm .typeahead__list {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.project-jquerytypeahead.page-demo .typeahead__list li a {
+    position: relative;
+}
+
+.project-jquerytypeahead.page-demo .result-container {
+    position: absolute;
+    color: #777;
+    top: -1.5em;
+}
+
+.project-jquerytypeahead.page-demo .typeahead-search li a .flag-chart {
+    position: absolute;
+    right: 16px;
+    top: 10px;
+}
+
+.flag-chart {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 30px;
+    height: 20px;
+    line-height: 14px;
+    vertical-align: text-top;
+    display: inline-block;
+    margin: -1px 3px -1px 0;
+    background:url(/assets/jquerytypeahead/img/country_v2.png) no-repeat scroll left top transparent;
+}
+.flag-united-states {
+    background-position: -30px top;
+}
+.flag-united-kingdom {
+    background-position: -60px top;
+}
+.flag-france {
+    background-position: -90px top;
+}
+.flag-germany {
+    background-position: -120px top;
+}
+.flag-denmark {
+    background-position: -150px top;
+}
+.flag-italy {
+    background-position: -180px top;
+}
+.flag-mexico {
+    background-position: -210px top;
+}
+.flag-brazil {
+    background-position: -240px top;
+}
+.flag-canada {
+    background-position: -270px top;
+}
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+input[type='text'], .js-typeahead  {
+  height: 30px !important ;
+  font-size: 12px !important ;
+  min-height: 24px !important ;
+}
+.card {
+  border: 0 !important;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+.m-2 {
+  margin: 1rem!important;
+}
+
+.badge-now { -webkit-border-radius: 38px; display: block;overflow: hidden;width: 38px;height: 38px;border: 1px solid #938d6a;background: #9b9570;text-align: center;color: #fff;z-index: 2;font-family: arial;line-height: 10px;}
